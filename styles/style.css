@@ -211,3 +211,64 @@ hr{
     width: 22px;
     margin-right: 10px;
 }
+
+/* media queries */
+
+/* mobile device  */
+@media screen and (max-width:556px) {
+    section{
+        width: 100%;
+    }
+    .navbar-items h1,h2,h3,h4,h5,h6, p,ul, li, a{
+        width: 90%;
+        font-size: 16px;
+    }
+    .left-side{
+        margin-left: 10px;
+    }
+    .right-side{
+        margin-right: 10px;
+    }
+    .right-side ul li{
+        margin-right: 10px;
+        
+    }
+    .right-side ul li a{
+        font-weight: 400;
+        font-size: 14px;
+        
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player{
+        flex-direction: column;
+    }
+
+   
+    .blog img{
+        width: 90%;
+    }
+    .blogs{
+        grid-template-columns: repeat(1, 95%);
+        justify-content: center;
+        
+    }
+    .blog{
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 4px 4px 8px gray;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    .blog-item{
+        margin-top: 20px;
+    }
+    /* .first-blog{
+        margin-left: 55px;
+    } */
+    .courses{
+        grid-template-columns: repeat(1, 95%);
+        justify-content: center;
+    }
+}
